@@ -1,0 +1,10 @@
+# Configure action by specifying input parameters individually (option 2).
+# If you are using config file (option 1) you shouldn't use these parameters, however
+# specifing these action parameters will override appropriate config values.
+profile: cover.out
+local-prefix: github.com/godepo/groat
+threshold-file: 100
+threshold-package: 100
+threshold-total: 100
+git-token: ${{ github.ref_name == 'main' && secrets.GITHUB_TOKEN || '' }}
+git-branch: badges
