@@ -1,3 +1,3 @@
 # Groat
-# Badges
-Groat is lightweight tookit for creation articulated declarative tests 
+
+Groat is lightweight toolkit for creation articulated declarative tests 
